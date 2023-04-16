@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bea3b8-faac-45d0-afba-7f80300e65d6" name="Changes" comment="" />
+    <list default="true" id="c4bea3b8-faac-45d0-afba-7f80300e65d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/input/p3/p3.graphFXD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/p3/p3.graphGZD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/p3/graphFXDResults.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/p3/graphGZDResults.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +21,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ORlwzIcrItzdinPgXRQEEbHJOs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analysis.main" />
@@ -51,5 +70,8 @@
       <updated>1681531520549</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
