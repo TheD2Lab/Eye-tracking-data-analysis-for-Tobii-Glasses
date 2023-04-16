@@ -24,6 +24,7 @@ package analysis;
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
+import java.io.File;
 import java.io.IOException;
 
 
@@ -32,11 +33,11 @@ public class main {
 	public static void main(String args[]) throws IOException{
 		
 		//specify the location of the raw data files
-		String inputURL = "/Users/.../";
+		String inputURL = "input/";
 		//specify the location of the analyzed results 
-		String outputURL = "/Users/.../";
+		String outputURL = "output/";
 		//specify the subject, e.g. p1, as analysis is generated per-participant
-		String participant = "...";
+		String participant = "p3";
 		
 		String inputLocation = inputURL + participant + "/";
 		String outputLocation = outputURL + participant + "/";
@@ -44,10 +45,10 @@ public class main {
 		//FXD data
 		//testing cases where X axis values are the same
 		//String fixationData = "fxdSameXValues.txt";
-		String treeFixation = participant + ".treeFXD.txt";
-		String treeFixationResults = "treeFXDResults.txt";
-		String treeFixationInput = inputLocation + treeFixation;
-        String treeFixationOutput = outputLocation + treeFixationResults; 
+		//String treeFixation = participant + ".treeFXD.txt";
+		//String treeFixationResults = "treeFXDResults.txt";
+		//String treeFixationInput = inputLocation + treeFixation;
+        //String treeFixationOutput = outputLocation + treeFixationResults;
         
         String graphFixation = participant + ".graphFXD.txt";
         String graphFixationResults = "graphFXDResults.txt";
@@ -55,6 +56,7 @@ public class main {
         String graphFixationOutput = outputLocation + graphFixationResults;
 		
 		//EVD data
+        /*
 		String treeEvent = participant + ".treeEVD.txt";
 		String treeEventResults = "treeEVDResults.txt";
 		String treeEventInput = inputLocation + treeEvent;
@@ -64,18 +66,19 @@ public class main {
         String graphEventResults = "graphEVDResults.txt";
         String graphEventInput = inputLocation + graphEvent;
         String graphEventOutput = outputLocation + graphEventResults;
+        */
 ;
         
         //GZD data
         String gazeBaseline = participant + "GZD.txt";
-        String baselineResults = "baselineResults.txt";
+        //String baselineResults = "baselineResults.txt";
         String baselineInput = inputLocation + gazeBaseline;
-        String baselineOutput = outputLocation + baselineResults;
+        //String baselineOutput = outputLocation + baselineResults;
         
-        String treeGaze = participant + ".treeGZD.txt";
-        String treeGazeResults = "treeGZDResults.txt";
-        String treeGazeInput = inputLocation + treeGaze;
-        String treeGazeOutput = outputLocation + treeGazeResults;
+        //String treeGaze = participant + ".treeGZD.txt";
+        //String treeGazeResults = "treeGZDResults.txt";
+        //String treeGazeInput = inputLocation + treeGaze;
+        //String treeGazeOutput = outputLocation + treeGazeResults;
         
         String graphGaze = participant + ".graphGZD.txt";
         String graphGazeResults = "graphGZDResults.txt";
@@ -83,16 +86,16 @@ public class main {
         String graphGazeOutput = outputLocation + graphGazeResults;
         
         //analyze gaze baseline
-        gaze.processGaze(baselineInput, baselineOutput);
+        //gaze.processGaze(baselineInput, baselineOutput);
         
         //analyze tree related data
-        fixation.processFixation(treeFixationInput, treeFixationOutput);
-        event.processEvent(treeEventInput, treeEventOutput);
-        gaze.processGaze(treeGazeInput, treeGazeOutput);
+        //fixation.processFixation(treeFixationInput, treeFixationOutput);
+        //event.processEvent(treeEventInput, treeEventOutput);
+        //gaze.processGaze(treeGazeInput, treeGazeOutput);
         
         //analyze graph related data
         fixation.processFixation(graphFixationInput, graphFixationOutput);
-        event.processEvent(graphEventInput, graphEventOutput);
+        //event.processEvent(graphEventInput, graphEventOutput);
         gaze.processGaze(graphGazeInput, graphGazeOutput);
 	}
 
