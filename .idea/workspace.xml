@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4bea3b8-faac-45d0-afba-7f80300e65d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/analysis/xlsxToFxdTxt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/p3/p3.graphFXD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/p3/p3.graphFXD.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/p3/graphFXDResults.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/p3/graphFXDResults.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/analysis/xlsxToTxt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Eye-tracking-data-analysis-for-Tobii-Studio-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/angle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/convexHull$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/convexHull$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/convexHull$Turn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/convexHull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/csvToTxt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/descriptiveStats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/fixation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/gaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/saccade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/xlsxToTxt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/analysis/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.xlsxToFxdTxt">
+  <component name="RunManager" selected="Application.main">
     <configuration name="csvToTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analysis.csvToTxt" />
       <module name="Eye-tracking-data-analysis-for-Tobii-Studio" />
@@ -130,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.xlsxToFxdTxt" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.xlsxToFxdTxt" />
         <item itemvalue="Application.xlsxToFxdTxt (1)" />
         <item itemvalue="Application.xlsxToTxt" />
         <item itemvalue="Application.csvToTxt" />

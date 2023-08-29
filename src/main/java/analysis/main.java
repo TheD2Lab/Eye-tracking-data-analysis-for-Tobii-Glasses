@@ -94,7 +94,12 @@ public class main {
         //gaze.processGaze(treeGazeInput, treeGazeOutput);
         
         //analyze graph related data
-        fixation.processFixation(graphFixationInput, graphFixationOutput);
+        //fixation.processFixation(graphFixationInput, graphFixationOutput);
+        File directoryPath = new File("output/Tobii FXD Exports");
+        File[] files = directoryPath.listFiles();
+        for (File file : files) {
+            fixation.processFixation(file.getAbsolutePath(), "output/Analysis FXD/" + file.getName() + ".txt");
+        }
         //event.processEvent(graphEventInput, graphEventOutput);
         gaze.processGaze(graphGazeInput, graphGazeOutput);
 	}
