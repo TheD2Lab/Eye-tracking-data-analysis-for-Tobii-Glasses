@@ -1,3 +1,0 @@
-graphFXD.txt inputs(in order)
-
-Fixation number, timestamp, eachFixationDuration, eachFixationX, eachFixationY

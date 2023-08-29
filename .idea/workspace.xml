@@ -5,56 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4bea3b8-faac-45d0-afba-7f80300e65d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV-20230829T045820Z-001.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD1_013.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD1_014.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD1_015.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD1_016.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD1_017.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_007.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_009.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_010.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_011.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_012.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD2_013.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD3_002.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD3_003.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD3_005.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD3_006.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data TSV/ASD Eye Tracking_ASD Eye Tracking Data_SD3_010.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX-20230829T045819Z-001.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD1_013.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD1_014.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD1_015.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD1_016.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD1_017.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_007.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_009.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_010.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_011.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_012.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD2_013.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD3_002.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD3_003.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD3_005.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD3_006.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Tobii Exports/ASD Raw Eye Tracking Data XLSX/ASD Eye Tracking_ASD Eye Tracking Data_SD3_010.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_information.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/p3/p3_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/analysis/xlsxToTxt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/csvToTxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/csvToTxt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/angle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/angle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/convexHull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/convexHull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/csvToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/csvToTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/descriptiveStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/descriptiveStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/fixation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/fixation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/gaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/gaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/saccade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/saccade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/angle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/convexHull$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/convexHull$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/convexHull$Turn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/convexHull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/csvToTxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/descriptiveStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/fixation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/gaze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eye-tracking-data-analysis-for-Tobii-Studio/analysis/saccade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +56,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.csvToTxt">
+  <component name="RunManager" selected="Application.xlsxToTxt">
     <configuration name="csvToTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analysis.csvToTxt" />
       <module name="Eye-tracking-data-analysis-for-Tobii-Studio" />
@@ -117,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xlsxToTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.xlsxToTxt" />
+      <module name="Eye-tracking-data-analysis-for-Tobii-Studio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xlsxToTxt" />
         <item itemvalue="Application.csvToTxt" />
         <item itemvalue="Application.main" />
       </list>
