@@ -1,0 +1,87 @@
+[0] ExportDate
+[1] StudioVersionRec
+[2] StudioProjectName
+[3] StudioTestName
+[4] ParticipantName
+[5] [Gender]Value
+[6] [Age]Value
+[7] RecordingName
+[8] RecordingDate
+[9] RecordingDuration
+[10] RecordingResolution
+[11] PresentationSequence
+[12] FixationFilter
+[13] MediaName
+[14] MediaPosX (ADCSpx)
+[15] MediaPosY (ADCSpx)
+[16] MediaWidth
+[17] MediaHeight
+[18] SegmentName
+[19] SegmentStart
+[20] SegmentEnd
+[21] SegmentDuration
+[22] SceneName
+[23] SceneSegmentStart
+[24] SceneSegmentEnd
+[25] SceneSegmentDuration
+[26] RecordingTimestamp
+[27] LocalTimeStamp
+[28] EyeTrackerTimestamp
+[29] MouseEventIndex
+[30] MouseEvent
+[31] MouseEventX (ADCSpx)
+[32] MouseEventY (ADCSpx)
+[33] MouseEventX (MCSpx)
+[34] MouseEventY (MCSpx)
+[35] KeyPressEventIndex
+[36] KeyPressEvent
+[37] StudioEventIndex
+[38] StudioEvent
+[39] StudioEventData
+[40] ExternalEventIndex
+[41] ExternalEvent
+[42] ExternalEventValue
+[43] EventMarkerValue
+[44] FixationIndex
+[45] SaccadeIndex
+[46] GazeEventType
+[47] GazeEventDuration
+[48] FixationPointX (MCSpx)
+[49] FixationPointY (MCSpx)
+[50] SaccadicAmplitude
+[51] AbsoluteSaccadicDirection
+[52] RelativeSaccadicDirection
+[53] GazePointIndex
+[54] GazePointLeftX (ADCSpx)
+[55] GazePointLeftY (ADCSpx)
+[56] GazePointRightX (ADCSpx)
+[57] GazePointRightY (ADCSpx)
+[58] GazePointX (ADCSpx)
+[59] GazePointY (ADCSpx)
+[60] GazePointX (MCSpx)
+[61] GazePointY (MCSpx)
+[62] GazePointLeftX (ADCSmm)
+[63] GazePointLeftY (ADCSmm)
+[64] GazePointRightX (ADCSmm)
+[65] GazePointRightY (ADCSmm)
+[66] StrictAverageGazePointX (ADCSmm)
+[67] StrictAverageGazePointY (ADCSmm)
+[68] EyePosLeftX (ADCSmm)
+[69] EyePosLeftY (ADCSmm)
+[70] EyePosLeftZ (ADCSmm)
+[71] EyePosRightX (ADCSmm)
+[72] EyePosRightY (ADCSmm)
+[73] EyePosRightZ (ADCSmm)
+[74] CamLeftX
+[75] CamLeftY
+[76] CamRightX
+[77] CamRightY
+[78] DistanceLeft
+[79] DistanceRight
+[80] PupilLeft
+[81] PupilRight
+[82] ValidityLeft
+[83] ValidityRight
+[84] IRMarkerCount
+[85] IRMarkerID
+[86] PupilGlassesRight
