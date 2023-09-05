@@ -51,6 +51,9 @@ public class fixation {
         ArrayList<Object> allCoordinates = new ArrayList<Object>();
         List<Point> allPoints = new ArrayList<Point>();
         ArrayList<Object> saccadeDetails = new ArrayList<Object>();
+        ArrayList<Double> saccadicAmplitudes = new ArrayList<>();
+        ArrayList<Double> absoluteSaccadicDirections = new ArrayList<>();
+        ArrayList<Double> relativeSaccadicDirections = new ArrayList<>();
 
         FileWriter fileWriter = new FileWriter(outputFile);
         FileWriter outputFileWriter = new FileWriter(new File(outputFile));
@@ -86,8 +89,10 @@ public class fixation {
                 eachSaccadeDetail[0] = timestamp;
                 eachSaccadeDetail[1] = eachDuration;
 
-
-
+                //Saccadic Direction and Amplitude
+                Double saccadicAmp = Double.parseDouble(lineArray[5]);
+                Double absSacDir = Double.parseDouble(lineArray[6]);
+                Double relSacDir = Double.parseDouble(lineArray[7]);
 
                 allFixationDurations.add(eachDuration);
 
@@ -97,145 +102,12 @@ public class fixation {
 
                 saccadeDetails.add(eachSaccadeDetail);
 
+                saccadicAmplitudes.add(saccadicAmp);
+
+                absoluteSaccadicDirections.add(absSacDir);
+
+                relativeSaccadicDirections.add(relSacDir);
             }
-
-            //Old Output Code
-            /*bufferedWriter.write("total number of fixations: " + getFixationCount(inputFile));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("sum of all fixation duration: " + descriptiveStats.getSumOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("mean duration: " + descriptiveStats.getMeanOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("median duration: " + descriptiveStats.getMedianOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("StDev of durations: " + descriptiveStats.getStDevOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("Min. duration: " + descriptiveStats.getMinOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("Max. duration: " + descriptiveStats.getMaxOfIntegers(allFixationDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            Double[] allSaccadeLengths = saccade.getAllSaccadeLength(allCoordinates);
-            
-            bufferedWriter.write("total number of saccades: " + allSaccadeLengths.length);
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("sum of all saccade length: " + descriptiveStats.getSum(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("mean saccade length: " + descriptiveStats.getMean(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("median saccade length: " + descriptiveStats.getMedian(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("StDev of saccade lengths: " + descriptiveStats.getStDev(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("min saccade length: " + descriptiveStats.getMin(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("max saccade length: " + descriptiveStats.getMax(allSaccadeLengths));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            ArrayList<Integer> allSaccadeDurations = saccade.getAllSaccadeDurations(saccadeDetails);
-            
-            bufferedWriter.write("sum of all saccade durations: " + descriptiveStats.getSumOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("mean saccade duration: " + descriptiveStats.getMeanOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("median saccade duration: " + descriptiveStats.getMedianOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("StDev of saccade durations: " + descriptiveStats.getStDevOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("Min. saccade duration: " + descriptiveStats.getMinOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("Max. saccade duration: " + descriptiveStats.getMaxOfIntegers(allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("scanpath duration: " + getScanpathDuration(allFixationDurations, allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("fixation to saccade ratio: " + getFixationToSaccadeRatio(allFixationDurations, allSaccadeDurations));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            ArrayList<Double> allAbsoluteDegrees = angle.getAllAbsoluteAngles(allCoordinates);
-            
-            bufferedWriter.write("sum of all absolute degrees: " + descriptiveStats.getSumOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("mean absolute degree: " + descriptiveStats.getMeanOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("median absolute degree: " + descriptiveStats.getMedianOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("StDev of absolute degrees: " + descriptiveStats.getStDevOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("min absolute degree: " + descriptiveStats.getMinOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("max absolute degree: " + descriptiveStats.getMaxOfDoubles(allAbsoluteDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-            
-            ArrayList<Double> allRelativeDegrees = angle.getAllRelativeAngles(allCoordinates);
-           
-            bufferedWriter.write("sum of all relative degrees: " + descriptiveStats.getSumOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("mean relative degree: " + descriptiveStats.getMeanOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("median relative degree: " + descriptiveStats.getMedianOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("StDev of relative degrees: " + descriptiveStats.getStDevOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("min relative degree: " + descriptiveStats.getMinOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.write("max relative degree: " + descriptiveStats.getMaxOfDoubles(allRelativeDegrees));
-            bufferedWriter.newLine();
-            
-            bufferedWriter.newLine();
-           
-            //getting the convex hull using Graham Scan
-            //i.e. Choose point p with smallest y-coordinate.
-            //Sort points by polar angle with p to get simple polygon.
-            //Consider points in order, and discard those that would create a clockwise turn.
-            List<Point> boundingPoints = convexHull.getConvexHull(allPoints);
-            Point2D[] points = listToArray(boundingPoints);
-
-            bufferedWriter.write("convex hull area: " + convexHull.getPolygonArea(points));
-            bufferedWriter.newLine();
-            
-            
-            */
 
             //Code From Tobii.2150
             ArrayList<String> headers = new ArrayList<>();
@@ -368,6 +240,55 @@ public class fixation {
 
             headers.add("convex hull area");
             data.add(String.valueOf(convexHull.getPolygonArea(points)));
+
+
+
+            headers.add("mean of saccadic amplitude");
+            data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(saccadicAmplitudes)));
+
+            headers.add("median of saccadic amplitude");
+            data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(saccadicAmplitudes)));
+
+            headers.add("StDev of saccadic amplitude");
+            data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(saccadicAmplitudes)));
+
+            headers.add("min of saccadic amplitude");
+            data.add(String.valueOf(descriptiveStats.getMinOfDoubles(saccadicAmplitudes)));
+
+            headers.add("max of saccadic amplitude");
+            data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(saccadicAmplitudes)));
+
+
+            headers.add("mean of absolute saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(absoluteSaccadicDirections)));
+
+            headers.add("median of absolute saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(absoluteSaccadicDirections)));
+
+            headers.add("StDev of absolute saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(absoluteSaccadicDirections)));
+
+            headers.add("min of absolute saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMinOfDoubles(absoluteSaccadicDirections)));
+
+            headers.add("max of absolute saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(absoluteSaccadicDirections)));
+
+
+            headers.add("mean of relative saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(relativeSaccadicDirections)));
+
+            headers.add("median of relative saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(relativeSaccadicDirections)));
+
+            headers.add("StDev of relative saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(relativeSaccadicDirections)));
+
+            headers.add("min of relative saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMinOfDoubles(relativeSaccadicDirections)));
+
+            headers.add("max of relative saccadic direction");
+            data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(relativeSaccadicDirections)));
 
             //Not Needed
             /*headers.add("Average Peak Saccade Velocity");

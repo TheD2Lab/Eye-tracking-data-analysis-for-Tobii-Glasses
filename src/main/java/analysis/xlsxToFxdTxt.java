@@ -52,17 +52,17 @@ public class xlsxToFxdTxt {
                             eachFixationDuration = getDuration(wb, x);
                             eachFixationX = Integer.parseInt(wb.getSheetAt(0).getRow(x).getCell(48).getStringCellValue());
                             eachFixationY = Integer.parseInt(wb.getSheetAt(0).getRow(x).getCell(49).getStringCellValue());
-                            if(wb.getSheetAt(0).getRow(x).getCell(50).getCellType().equals(CellType.STRING)){
+                            if(wb.getSheetAt(0).getRow(x).getCell(50).getCellType().equals(CellType.STRING) || Double.isNaN((wb.getSheetAt(0).getRow(x).getCell(50).getNumericCellValue()))){
                                 saccadicAmp = 0.0;
                             } else {
                                 saccadicAmp = (wb.getSheetAt(0).getRow(x).getCell(50).getNumericCellValue());
                             }
-                            if(wb.getSheetAt(0).getRow(x).getCell(51).getCellType().equals(CellType.STRING)){
+                            if(wb.getSheetAt(0).getRow(x).getCell(51).getCellType().equals(CellType.STRING) || Double.isNaN((wb.getSheetAt(0).getRow(x).getCell(51).getNumericCellValue()))){
                                 absSacDir = 0.0;
                             } else {
                                 absSacDir = (wb.getSheetAt(0).getRow(x).getCell(51).getNumericCellValue());
                             }
-                            if(wb.getSheetAt(0).getRow(x).getCell(52).getCellType().equals(CellType.STRING)){
+                            if(wb.getSheetAt(0).getRow(x).getCell(52).getCellType().equals(CellType.STRING) || Double.isNaN((wb.getSheetAt(0).getRow(x).getCell(52).getNumericCellValue()))){
                                 relSacDir = 0.0;
                             } else {
                                 relSacDir = (wb.getSheetAt(0).getRow(x).getCell(52).getNumericCellValue());
