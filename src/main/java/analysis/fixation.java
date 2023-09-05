@@ -87,6 +87,8 @@ public class fixation {
                 eachSaccadeDetail[1] = eachDuration;
 
 
+
+
                 allFixationDurations.add(eachDuration);
 
                 allCoordinates.add(eachCoordinate);

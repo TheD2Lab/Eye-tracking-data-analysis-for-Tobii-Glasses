@@ -39,6 +39,7 @@ public class xlsxToFxdTxt {
             InputStream reader = new FileInputStream(inputFilePath);
             XSSFWorkbook wb = new XSSFWorkbook(inputFilePath);
             int fixationNumber, timestamp, eachFixationDuration, eachFixationX, eachFixationY;
+            double saccadicAmp, absSacDir, relSacDir;
 
             //Retrieves all the necessary data from the .xlsx file and writes them to an output file
             for (int x = 1; x < wb.getSheetAt(0).getLastRowNum(); x++) {
@@ -51,7 +52,22 @@ public class xlsxToFxdTxt {
                             eachFixationDuration = getDuration(wb, x);
                             eachFixationX = Integer.parseInt(wb.getSheetAt(0).getRow(x).getCell(48).getStringCellValue());
                             eachFixationY = Integer.parseInt(wb.getSheetAt(0).getRow(x).getCell(49).getStringCellValue());
-                            writer.write(fixationNumber + " " + timestamp + " " + eachFixationDuration + " " + eachFixationX + " " + eachFixationY);
+                            if(wb.getSheetAt(0).getRow(x).getCell(50).getCellType().equals(CellType.STRING)){
+                                saccadicAmp = 0.0;
+                            } else {
+                                saccadicAmp = (wb.getSheetAt(0).getRow(x).getCell(50).getNumericCellValue());
+                            }
+                            if(wb.getSheetAt(0).getRow(x).getCell(51).getCellType().equals(CellType.STRING)){
+                                absSacDir = 0.0;
+                            } else {
+                                absSacDir = (wb.getSheetAt(0).getRow(x).getCell(51).getNumericCellValue());
+                            }
+                            if(wb.getSheetAt(0).getRow(x).getCell(52).getCellType().equals(CellType.STRING)){
+                                relSacDir = 0.0;
+                            } else {
+                                relSacDir = (wb.getSheetAt(0).getRow(x).getCell(52).getNumericCellValue());
+                            }
+                            writer.write(fixationNumber + " " + timestamp + " " + eachFixationDuration + " " + eachFixationX + " " + eachFixationY + " " + saccadicAmp + " " + absSacDir + " " + relSacDir);
                             writer.newLine();
                         }
                     }

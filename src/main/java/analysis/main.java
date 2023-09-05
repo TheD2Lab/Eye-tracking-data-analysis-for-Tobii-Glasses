@@ -98,7 +98,7 @@ public class main {
         File directoryPath = new File("output/Tobii FXD Exports");
         File[] files = directoryPath.listFiles();
         for (File file : files) {
-            fixation.processFixation(file.getAbsolutePath(), "output/Analysis FXD/" + file.getName() + ".txt");
+            fixation.processFixation(file.getAbsolutePath(), "output/Analysis FXD/" + file.getName() + ".csv");
         }
         //event.processEvent(graphEventInput, graphEventOutput);
         gaze.processGaze(graphGazeInput, graphGazeOutput);

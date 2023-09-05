@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4bea3b8-faac-45d0-afba-7f80300e65d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/analysis/fixation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/fixation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/analysis/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/analysis/xlsxToFxdTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/xlsxToFxdTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/analysis/fixation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/analysis/fixation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/analysis/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/analysis/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/analysis/xlsxToFxdTxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/analysis/xlsxToFxdTxt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.xlsxToFxdTxt">
     <configuration name="csvToTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analysis.csvToTxt" />
       <module name="Eye-tracking-data-analysis-for-Tobii-Studio" />
@@ -108,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
         <item itemvalue="Application.xlsxToFxdTxt" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.xlsxToFxdTxt (1)" />
         <item itemvalue="Application.xlsxToTxt" />
         <item itemvalue="Application.csvToTxt" />
