@@ -113,122 +113,122 @@ public class fixation {
             ArrayList<String> headers = new ArrayList<>();
             ArrayList<String> data = new ArrayList<>();
 
-            headers.add("total number of fixations");
+            headers.add("total_number_of_fixations");
             data.add(String.valueOf(getFixationCount(inputFile)));
 
-            headers.add("sum of all fixation duration");
+            headers.add("sum_of_all_fixation_duration");
             data.add(String.valueOf(descriptiveStats.getSumOfIntegers(allFixationDurations)));
 
-            headers.add("mean fixation duration (ms)");
+            headers.add("mean_fixation_duration_(ms)");
             data.add(String.valueOf(descriptiveStats.getMeanOfIntegers(allFixationDurations)));
 
-            headers.add("median fixation duration (ms)");
+            headers.add("median_fixation_duration_(ms)");
             data.add(String.valueOf(descriptiveStats.getMedianOfIntegers(allFixationDurations)));
 
-            headers.add(" StDev of fixation durations (ms)");
+            headers.add("StDev_of_fixation_durations_(ms)");
             data.add(String.valueOf(descriptiveStats.getStDevOfIntegers(allFixationDurations)));
 
-            headers.add("Min. fixation duration (ms)");
+            headers.add("Min_fixation_duration_(ms)");
             data.add(String.valueOf(descriptiveStats.getMinOfIntegers(allFixationDurations)));
 
-            headers.add("Max. fixation duration (ms)");
+            headers.add("Max_fixation_duration_(ms)");
             data.add(String.valueOf(descriptiveStats.getMaxOfIntegers(allFixationDurations)));
 
             Double[] allSaccadeLengths = saccade.getAllSaccadeLength(allCoordinates);
 
-            headers.add("total number of saccades");
+            headers.add("total_number_of_saccades");
             data.add(String.valueOf(allSaccadeLengths.length));
 
-            headers.add("sum of all saccade length");
+            headers.add("sum_of_all_saccade_length");
             data.add(String.valueOf(descriptiveStats.getSum(allSaccadeLengths)));
 
-            headers.add("mean saccade length");
+            headers.add("mean_saccade_length");
             data.add(String.valueOf(descriptiveStats.getMean(allSaccadeLengths)));
 
 
-            headers.add("median saccade length");
+            headers.add("median_saccade_length");
             data.add(String.valueOf(descriptiveStats.getMedian(allSaccadeLengths)));
 
-            headers.add("StDev of saccade lengths");
+            headers.add("StDev_of_saccade_lengths");
             data.add(String.valueOf(descriptiveStats.getStDev(allSaccadeLengths)));
 
-            headers.add("min saccade length");
+            headers.add("min_saccade_length");
             data.add(String.valueOf(descriptiveStats.getMin(allSaccadeLengths)));
 
 
-            headers.add("max saccade length");
+            headers.add("max_saccade_length");
             data.add(String.valueOf(descriptiveStats.getMax(allSaccadeLengths)));
 
             ArrayList<Integer> allSaccadeDurations = saccade.getAllSaccadeDurations(saccadeDetails);
 
-            headers.add("sum of all saccade durations");
+            headers.add("sum_of_all_saccade_durations");
             data.add(String.valueOf(descriptiveStats.getSumOfIntegers(allSaccadeDurations)));
 
-            headers.add("mean saccade duration");
+            headers.add("mean_saccade_duration");
             data.add(String.valueOf(descriptiveStats.getMeanOfIntegers(allSaccadeDurations)));
 
-            headers.add("median saccade duration");
+            headers.add("median_saccade_duration");
             data.add(String.valueOf(descriptiveStats.getMedianOfIntegers(allSaccadeDurations)));
 
 
-            headers.add("StDev of saccade durations");
+            headers.add("StDev_of_saccade_durations");
             data.add(String.valueOf(descriptiveStats.getStDevOfIntegers(allSaccadeDurations)));
 
-            headers.add("Min. saccade duration");
+            headers.add("Min_saccade_duration");
             data.add(String.valueOf(descriptiveStats.getMinOfIntegers(allSaccadeDurations)));
 
-            headers.add("Max. saccade duration");
+            headers.add("Max_saccade_duration");
             data.add(String.valueOf(descriptiveStats.getMaxOfIntegers(allSaccadeDurations)));
 
-            headers.add("scanpath duration");
+            headers.add("Scanpath_duration");
             data.add(String.valueOf(getScanpathDuration(allFixationDurations, allSaccadeDurations)));
 
 
-            headers.add("fixation to saccade ratio");
+            headers.add("fixation_to_saccade_ratio");
             data.add(String.valueOf(getFixationToSaccadeRatio(allFixationDurations, allSaccadeDurations)));
 
             ArrayList<Double> allAbsoluteDegrees = angle.getAllAbsoluteAngles(allCoordinates);
 
-            headers.add("sum of all absolute degrees");
+            headers.add("sum_of_all_absolute_degrees");
             data.add(String.valueOf(descriptiveStats.getSumOfDoubles(allAbsoluteDegrees)));
 
-            headers.add("mean absolute degree");
+            headers.add("mean_absolute_degree");
             data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(allAbsoluteDegrees)));
 
-            headers.add("median absolute degree");
+            headers.add("median_absolute_degree");
             data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(allAbsoluteDegrees)));
 
-            headers.add("StDev of absolute degrees");
+            headers.add("StDev_of_absolute_degrees");
             data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(allAbsoluteDegrees)));
 
 
-            headers.add("min absolute degree");
+            headers.add("min_absolute_degree");
             data.add(String.valueOf(descriptiveStats.getMinOfDoubles(allAbsoluteDegrees)));
 
 
-            headers.add("max absolute degree");
+            headers.add("max_absolute_degree");
             data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(allAbsoluteDegrees)));
 
 
             ArrayList<Double> allRelativeDegrees = angle.getAllRelativeAngles(allCoordinates);
 
-            headers.add("sum of all relative degrees");
+            headers.add("sum_of_all_relative_degrees");
             data.add(String.valueOf(descriptiveStats.getSumOfDoubles(allRelativeDegrees)));
 
-            headers.add("mean relative degree");
+            headers.add("mean_relative_degree");
             data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(allRelativeDegrees)));
 
-            headers.add("median relative degree");
+            headers.add("median_relative_degree");
             data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(allRelativeDegrees)));
 
-            headers.add("StDev of relative degrees");
+            headers.add("StDev_of_relative_degrees");
             data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(allRelativeDegrees)));
 
-            headers.add("min relative degree");
+            headers.add("min_relative_degree");
             data.add(String.valueOf(descriptiveStats.getMinOfDoubles(allRelativeDegrees)));
 
 
-            headers.add("max relative degree");
+            headers.add("max_relative_degree");
             data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(allRelativeDegrees)));
 
             //getting the convex hull using Graham Scan
@@ -238,56 +238,56 @@ public class fixation {
             List<Point> boundingPoints = convexHull.getConvexHull(allPoints);
             Point2D[] points = listToArray(boundingPoints);
 
-            headers.add("convex hull area");
+            headers.add("convex_hull_area");
             data.add(String.valueOf(convexHull.getPolygonArea(points)));
 
 
 
-            headers.add("mean of saccadic amplitude");
+            headers.add("mean_of_saccadic_amplitude");
             data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(saccadicAmplitudes)));
 
-            headers.add("median of saccadic amplitude");
+            headers.add("median_of_saccadic_amplitude");
             data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(saccadicAmplitudes)));
 
-            headers.add("StDev of saccadic amplitude");
+            headers.add("StDev_of_saccadic_amplitude");
             data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(saccadicAmplitudes)));
 
-            headers.add("min of saccadic amplitude");
+            headers.add("min_of_saccadic_amplitude");
             data.add(String.valueOf(descriptiveStats.getMinOfDoubles(saccadicAmplitudes)));
 
-            headers.add("max of saccadic amplitude");
+            headers.add("max_of_saccadic_amplitude");
             data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(saccadicAmplitudes)));
 
 
-            headers.add("mean of absolute saccadic direction");
+            headers.add("mean_of_absolute_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(absoluteSaccadicDirections)));
 
-            headers.add("median of absolute saccadic direction");
+            headers.add("median_of_absolute_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(absoluteSaccadicDirections)));
 
-            headers.add("StDev of absolute saccadic direction");
+            headers.add("StDev_of_absolute_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(absoluteSaccadicDirections)));
 
-            headers.add("min of absolute saccadic direction");
+            headers.add("min_of_absolute_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMinOfDoubles(absoluteSaccadicDirections)));
 
-            headers.add("max of absolute saccadic direction");
+            headers.add("max_of_absolute_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(absoluteSaccadicDirections)));
 
 
-            headers.add("mean of relative saccadic direction");
+            headers.add("mean_of_relative_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMeanOfDoubles(relativeSaccadicDirections)));
 
-            headers.add("median of relative saccadic direction");
+            headers.add("median_of_relative_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMedianOfDoubles(relativeSaccadicDirections)));
 
-            headers.add("StDev of relative saccadic direction");
+            headers.add("StDev_of_relative_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getStDevOfDoubles(relativeSaccadicDirections)));
 
-            headers.add("min of relative saccadic direction");
+            headers.add("min_of_relative_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMinOfDoubles(relativeSaccadicDirections)));
 
-            headers.add("max of relative saccadic direction");
+            headers.add("max_of_relative_saccadic_direction");
             data.add(String.valueOf(descriptiveStats.getMaxOfDoubles(relativeSaccadicDirections)));
 
             //Not Needed
